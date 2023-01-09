@@ -1,0 +1,6 @@
+# Ignore All (xlsx) files
+*.xlsx
+*.csv
+
+# DO-NOT ignore specific file
+# !scrapy/emailscraper Input.xlsx
