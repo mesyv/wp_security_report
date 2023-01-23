@@ -6,6 +6,7 @@
 # - drop emails without the same domain as the website (or gmail/yahoo)
 # - look for: phone, facebook, linkedin, instagram, twitter, "This page can't load Google Maps correctly."
 # - validate_email could be deleted as another validation is in "drop_gov_and_edu" file (I'll change the name of the file later)
+# - save not to email_1.csv but to email_{now}.csv
 
 import scrapy
 from scrapy.linkextractors import LinkExtractor
